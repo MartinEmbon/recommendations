@@ -2,11 +2,11 @@ import './App.css';
 import ChatMessage from './ChatMessage';
 import './normal.css'
 import { useState } from 'react';
-import { useEffect } from 'react';
+//import { useEffect } from 'react';
 
 function App() {
   const [input, setInput] = useState("")
-  const [models, setModels] = useState([])
+  //const [models, setModels] = useState([])
   const [chatLog, setChatLog] = useState([{
     user: "gpt",
     message: "How can I help you today?",
